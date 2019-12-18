@@ -8,7 +8,11 @@ been written over and over again.
 
 ASP.Net Core is an open source version of ASP.Net that is cross-platform and uses the C# or F# programming language.
 
-
+### What is MVC and why do I care?
+MVC stands for Model, View, Controller. It is nothing more than a way of coding. It is better to have a well-defined
+structure for your code so when your code changes for example: adding a new feature, or updating to a new version
+it will be far easier and save headaches and time. As a bonus if some error is in the code it can also be easier to
+track down and correct it makes code easier to maintain.
 
 ### Some things you will need before starting:
 
