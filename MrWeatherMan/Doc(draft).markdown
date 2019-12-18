@@ -14,6 +14,8 @@ structure for your code so when your code changes for example: adding a new feat
 it will be far easier and save headaches and time. As a bonus if some error is in the code it can also be easier to
 track down and correct it makes code easier to maintain.
 
+###### TODO: Add image or other resource to help understand MVC
+
 ### Some things you will need before starting:
 
 - A drive to learn and figure problems out (anyone can learn how to code!)
@@ -26,8 +28,8 @@ By the time you follow this tutorial things might be old or broken if I don't ke
 updated. A very important part of learning how to code is learning to deal with problems and solve them.
 There are great resources to help you find ways to solve any problem you might have. I personally am
 learning and writing this course with help from Google and the great people that answer our questions everyday.
-Other than Google, another great resource is the code docs! You don't have to read everything and remember it all
-my goal is not to learn everything about a certain programming language it is to build applications using the
+Other than Google, another great resource is the code docs! You don't have to read everything and remember it all.
+My goal is not to learn everything about a certain programming language, it is to build applications using the
 tools we already have.
 
 You can always look back at the [Github](https://github.com/ch4nc3l0/MrWeatherMan-Weather-Learning-MVC-ASP.NET) page I will make commits in a structured way to allow anybody to look for what 
@@ -49,4 +51,7 @@ ASP.Net Core and install it.
 providing a step by step for this environment at the moment. Everything is still
 possible using only ASP.Net Core.
 
-
+### C#
+C# is a programming language that gives developers alot of control compared to something like javascript.
+Because the developer has more control it has a little bit more of a learning curve. More control normally 
+means more things to manage.
