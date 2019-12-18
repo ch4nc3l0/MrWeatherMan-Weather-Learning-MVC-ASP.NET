@@ -60,3 +60,122 @@ means more things to manage.
 We will write a guessing game application! That is right I said we! There are exercises in every lesson, you can move
 forward and see the solution but I highly recommend at least trying every exercise at least once. It will teach you to
 use what you just learned and force you take a break from reading and copy/paste coding.
+
+### Your first C# Program
+1. In VS click create new project
+2. Select Console App (.netcore)
+3. Give it a name I used LearningCSTut
+4. Click Create
+
+VS generated some code for us! We can press run in VS and run the code.
+A terminal window should have popped up and have the words Hello World!
+
+Congragulataions! That is the starter template for a program in C#. Lets look
+closer at the code and understand what is going on.
+
+```
+using System;
+
+namespace LearningCSTut
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
+```
+
+---
+```
+using System;
+```
+
+using - here is a keyword in C# that tells the compiler we are going to use something 
+from another file.
+
+System - a namespace you can think of it as a filename, we have to tell c# what the
+file is called before we use it. We didn't write anything called System but it is already
+in the .Net Framework
+ 
+---
+```
+namespace LearningCSTut {
+```
+
+namespace - Now we are declaring our own custom namespace or "file" it 
+is not really a file and can be different than the actual file name,
+and you can have nested namespaces or a namespace in a namespace.
+
+LearningCSTUT - This is just a name for the namespace we can name it
+whatever we want to. It is best practice to name it based on what you
+are doing with it.
+
+{ - This is an opening bracket we put all the code we want the 
+namespace to have inside of the brackets.
+
+---
+```
+class Program
+{
+```
+
+class - A way to combine multiple fields of code into one unit typically
+classes hold functions and data (we will look at functions in the next line)
+
+Program - The user-defined name for the class we will use this name to call
+the class when we want to use it later. 
+
+---
+```
+static void Main(string[] args)
+{
+```
+
+static - Declares that this funtion or method should only have one instance
+that is identical whenever it is used. It is not for a class or variable with
+many instances with different values.
+
+void - This is called a return type, we are saying that this function or method 
+is not returning any value.
+
+Main - This is a special function or method that is called when the app starts.
+a function or method is a group of code that performs a certain function. Normally
+you want functions to be a group of code that performs one task.
+
+(string[] args) - This is called parameters we are telling the program that the 
+main function takes in a string or group of letters called args. The []next to string
+means string is an array, we will go over arrays at a later time.
+
+{ - Another opening bracket exept now the code in this bracket is the code 
+we want inside of the main method.
+
+---
+```
+Console.WriteLine("Hello World!");
+```
+
+Console - A class from the System namespace 
+
+.WriteLine - A method from the Console class this method outputs text to the screen
+this method and class are provided to us by the ASP.Net framework.
+
+("Hello World!"); - This is the parameter for the WriteLine method, it tells WriteLine
+to print the string Hello World! to the console. The semicolon here means we are done
+telling c# what we want to do with the line Console.WriteLine("Hello World!"); If it was
+not there C# would think the next line of code was also part of Console.WriteLine.
+
+---
+```
+        }
+    }
+}
+```
+
+1st } - Here the closing brackets let c# know the main method is done.
+
+2nd } - Lets c# know the method main is done.
+
+3rd } - Lets c# know the class program is done.
