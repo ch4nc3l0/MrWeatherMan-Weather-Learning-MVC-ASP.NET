@@ -24,3 +24,12 @@ ASP.Net Core and install it.
 providing a step by step for this environment at the moment. Everything is still
 possible using only ASP.Net Core.
 
+### What to do if you get stuck on an issue
+By the time you follow this tutorial things might be old or broken if I don't keep everything
+updated. A very important part of learning how to code is learning to deal with problems and solve them.
+There are great resources to help you find ways to solve any problem you might have. I personally am
+learning and writing this course with help from Google and the great people that answer our questions everyday.
+Other than Google, another great resource is the code docs! You don't have to read everything and remember it all
+my goal is not to learn everything about a certain programming language it is to build applications using the
+tools we already have.
+
