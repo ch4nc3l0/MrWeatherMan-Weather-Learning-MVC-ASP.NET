@@ -36,5 +36,10 @@ tools we already have.
 You can always look back at the [Github](https://github.com/ch4nc3l0/MrWeatherMan-Weather-Learning-MVC-ASP.NET) page I will make commits in a structured way to allow anybody to look for what 
 they are stuck on.
 
+### What is ASP.Net, and ASP.Net Core
+ASP.Net is a framework or library of code from many different developers that make it fast and easy to develop
+applications. It is basically a standard that everyone can use so they don't have to write code that has already
+been written over and over again.
 
+ASP.Net Core is an open source version of ASP.Net that is cross-platform and uses the C# or F# programming language.
 
