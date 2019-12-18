@@ -108,6 +108,7 @@ namespace LearningCSTut {
 namespace - Now we are declaring our own custom namespace or "file" it 
 is not really a file and can be different than the actual file name,
 and you can have nested namespaces or a namespace in a namespace.
+Think of it as a "file name" for a section of code.
 
 LearningCSTUT - This is just a name for the namespace we can name it
 whatever we want to. It is best practice to name it based on what you
@@ -179,3 +180,90 @@ not there C# would think the next line of code was also part of Console.WriteLin
 2nd } - Lets c# know the method main is done.
 
 3rd } - Lets c# know the class program is done.
+
+---
+
+###### First App Quiz
+
+---
+
+1. What are { \} used for in C#?
+a. Ending one line of code.
+b. Defining the start and end of a namespace, class, or method.
+c. For making funny faces when your bored.
+d. Used in methods to define the start and end of parameters.
+
+---
+
+2. Why do we have to use ; in C#?
+a. To tell C# when we are done writing a line of code.
+b. It makes our code look cooler.
+c. Because.
+d. To start a new class.
+
+---
+
+3. What is a function or a method?
+a. A single line of code.
+b. A way to run your application without errors.
+c. The correct way to write a class while also using the correct namespace.
+d. A section of code that normally performs one task.
+
+---
+
+4. What is a namespace?
+a. Space in the RAM allocated to remember the name of your application.
+b. A user-defined name that nobody else in the world can use.
+c. They are what C# uses to track the "file name" of our block of code.
+d. A variable that couldn't be saved because the hard drive was full.
+
+---
+
+5. What is a class in C#?
+a. A place to learn C#.
+b. A Method.
+c. A container that can hold methods and data.
+d. A way to set memory aside for slow database querys
+
+---
+6. What will this block of code do?
+
+```
+using System;
+
+namespace LearningCSTut
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("This is my first program!");
+        }
+    }
+}
+```
+
+a. Nothing that is bad code.
+b. It will print to the console This is my first program!
+c. It create a variable and then runs main and after that it makes a class.
+d. It prints out Console.WriteLine("This is my first program!"); to the terminal window.
+
+---
+
+7. What does the line: `using System;` mean?
+a. You are currently using your computer so you have to use the system.
+b. You are using a namespace called system.
+c. A method named system exists in your file.
+d. The class system is on line 6 of your code.
+
+---
+
+8. What does the method WriteLine do?
+a. It writes something onto the console based on your parameters.
+b. It writes a line of code for you based on your parameters.
+c. It doesn't write anything.
+d. It takes the square root of your input.
+
+---
+
+ans 1-b 2-a 3-d 4-c 5-c 6-b 7-b 8-a
