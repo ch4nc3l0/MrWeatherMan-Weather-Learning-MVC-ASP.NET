@@ -33,3 +33,8 @@ Other than Google, another great resource is the code docs! You don't have to re
 my goal is not to learn everything about a certain programming language it is to build applications using the
 tools we already have.
 
+You can always look back at the [Github](https://github.com/ch4nc3l0/MrWeatherMan-Weather-Learning-MVC-ASP.NET) page I will make commits in a structured way to allow anybody to look for what 
+they are stuck on.
+
+
+
