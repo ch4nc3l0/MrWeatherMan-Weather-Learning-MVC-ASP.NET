@@ -55,3 +55,8 @@ possible using only ASP.Net Core.
 C# is a programming language that gives developers alot of control compared to something like javascript.
 Because the developer has more control it has a little bit more of a learning curve. More control normally 
 means more things to manage.
+
+### Enough Reading! Lets Code!
+We will write a guessing game application! That is right I said we! There are exercises in every lesson, you can move
+forward and see the solution but I highly recommend at least trying every exercise at least once. It will teach you to
+use what you just learned and force you take a break from reading and copy/paste coding.
